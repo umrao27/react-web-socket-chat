@@ -30,6 +30,7 @@ io.on("connection", (socket) => {
 
 /* This is handling the functionality of broadcasting a message to all connected sockets except the
  socket that originally sent the message, enabling one-to-many communication.*/
+ 
 // io.on("connection", (socket) => {
 //   socket.on("send_message", (data) => {
 //     socket.broadcast.emit("receive_message", data);
