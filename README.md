@@ -41,11 +41,11 @@ react-web-socket-chat/
 │     ├── index.css
 │     ├── index.html
 ├── package.json
-└── README.md
 
 ├── server/
-    |── index.js
+    ├── index.js
     ├── package.json
+├── README.md
 ```
 
 ---
